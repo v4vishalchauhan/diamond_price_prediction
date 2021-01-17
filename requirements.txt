@@ -5,9 +5,9 @@ Jinja2
 MarkupSafe
 Werkzeug
 numpy
-scipy
+
 scikit-learn
-pickle
+
 
 flask
 gunicorn

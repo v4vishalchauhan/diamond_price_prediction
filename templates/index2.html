@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Diamond price prediction</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<link rel="stylesheet" media="all" href="/static/css/style.css">
+</head>
+<body>
+
+	<header id="header">
+		<div class="container">
+						<h2 style="font-size: 20px; display: inline-block; font-weight: bold; padding-right: 10px;">Aastir</h32>
+			
+		</div>
+
+	<div id="slider">
+		<ul>
+			<li style="background-image: url(/static/images/d1.jpg)">
+			</li>
+			<li style="background-image: url(/static/images/d2.webp)" >
+			</li>
+
+		</ul>
+	</div>
+
+<br><form method="POST">
+	<center>
+		<h1 style="font-size: 40px;">Diamond Price Prediction</h1>
+		<br>
+	<h3 style="font-size: 20px; display: inline-block; font-weight: bold; padding-right: 10px;">Carat</h3>
+    <input name ="carat">
+  <!-- <button type="submit" name="Get summary">Get summary</button> -->
+         
+    <br><br>
+
+	<h3 style="font-size: 20px; font-weight: bold;">Cut of Diamond</h3>
+	
+	<input type="radio" name="options" id="option1" value="Ideal"> Ideal</input>
+	<input type="radio" name="options" id="option2" value="Premium"> Premium </input>
+	<input type="radio" name="options" id="option3" value="Very_Good"> Very Good </input>
+	<input type="radio" name="options" id="option4" value="Good"> Good </input>
+	<input type="radio" name="options" id="option5" value="Fair"> Fair </input>
+    <br><br>
+
+	<h3 style="font-size: 20px; font-weight: bold;">Color of Diamond</h3>
+
+	<input type="radio" name="options2" id="option1" value="G"> G</input>
+	<input type="radio" name="options2" id="option2" value="E"> E </input>
+	<input type="radio" name="options2" id="option3" value="F"> F </input>
+	<input type="radio" name="options2" id="option4" value="H"> H </input>
+	<input type="radio" name="options2" id="option5" value="D"> D </input>
+	<input type="radio" name="options2" id="option6" value="I"> I </input>
+	<input type="radio" name="options2" id="option7" value="J"> J </input>
+
+<br><br>
+
+	<h3 style="font-size: 20px; font-weight: bold;">Clarity of Diamond</h3>
+	
+	<input type="radio" name="options3" id="option1" value="SI1"> SI1 </input>
+	<input type="radio" name="options3" id="option2" value="SI2"> SI2 </input>
+	<input type="radio" name="options3" id="option3" value="VS1"> VS1 </input>
+	<input type="radio" name="options3" id="option4" value="VS2"> VS2 </input>
+	<input type="radio" name="options3" id="option5" value="VVS1"> VVS1 </input>
+	<input type="radio" name="options3" id="option6" value="VVS2"> VVS2 </input>
+	<input type="radio" name="options3" id="option7" value="IF"> IF </input>
+	<input type="radio" name="options3" id="option7" value="I1"> I1 </input>
+	<br><br>
+    <h3 style="font-size: 20px; display: inline-block; font-weight: bold; padding-right: 50px;">Depth</h3>
+    <input name ="depth">
+	<br><br>
+    <h3 style="font-size: 20px; display: inline-block; font-weight: bold; padding-right: 50px;">Table</h3>
+    <input name ="table">
+	<br><br>
+    <h3 style="font-size: 20px; display: inline-block; font-weight: bold; padding-right: 95px;">x</h3>
+    <input name ="x">
+	<br><br>
+    <h3 style="font-size: 20px; display: inline-block; font-weight: bold; padding-right: 95px;">y</h3>
+    <input name ="y">
+	<br><br>
+    <h3 style="font-size: 20px; display: inline-block; font-weight: bold; padding-right: 95px;">z</h3>
+    <input name ="z">
+<br><br>
+
+    <button type="submit" name="Get_price" style="width: 250px; font-size: 20px; background-color: #e7e7e7; color: black; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}">Get Price</button>
+<br><br>
+
+    <h3 style="font-size: 20px; display: inline-block; font-weight: bold; padding-right: 140px;">Price</h3>
+
+    <h5 style="font-size: 20px; display: inline-block; font-weight: bold; padding-right: 60px;"> {{price}}</h5>
+    
+	</center>
+
+</form>
+<br><br><br>
+	<footer id="footer">
+		<div class="container">
+			<div class="cols">
+				<center>
+		<h3 style="font-size: 20px; display: inline-block; font-weight: bold; padding-right: 10px;">Made by Aastir</h3>
+				</center>
+		
+				</div>
+			</div>
+			
+		</div>
+	</footer>
+
+
+
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script>window.jQuery || document.write("<script src='static/js/jquery-1.11.1.min.js'>\x3C/script>")</script>
+	<script src="static/js/plugins.js"></script>
+	<script src="static/js/main.js"></script>
+</body>
+</html>
